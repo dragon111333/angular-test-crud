@@ -1,0 +1,167 @@
+body,html{
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #EFEDED ;
+}
+
+.container {
+  width: 80%;
+  margin-bottom:50px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.col {
+  flex: 1;
+  margin-right: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="date"] ,
+select{
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Section Styles */
+.user-info,
+.contact-info,
+.educational-info,
+.experience-info,
+.skill-info {
+  margin-bottom: 20px;
+}
+
+/* Button Styles */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+
+/* CARD */
+.custom-card{
+border: none;
+border-radius: 15px;
+padding: 8px;
+background-color: #fff;
+position: relative;
+height: 200px;
+}
+
+.upper{
+height: 100px;
+width: 100%;
+}
+
+.upper img{
+  width: 100%;
+  max-height: 250px;
+  height: auto;
+  object-fit: cover;
+}
+
+.upper .change-cover-btn{
+position: absolute;
+ right:20px;
+ bottom:-110%;
+ background-color: #DFDDDD;
+ color:black;
+ width: auto;
+ text-align: center;
+ font-size: 12px;
+ display: flex;
+ align-items: center; /* Center vertically */
+ justify-content: center; /* Center horizontally */
+ border: none; /* Remove border */
+ cursor: pointer; /* Change cursor to pointer */
+ padding: 5px 10px; /* Add padding */
+ font-size: 16px; /* Adjust font size */
+}
+.change-cover-btn mat-icon {
+margin-top: 5px; /* Add some space between icon and text */
+}
+
+.user{
+position: relative;
+}
+
+.profile img{
+  height:190px;
+  width: 190px;
+  margin-top:2px;
+  object-fit: cover;
+}
+.profile .change-profile-btn{
+ position: absolute;
+  right:0px;
+  bottom:20px;
+  background-color: #DFDDDD;
+  color:black;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding: 0;
+  font-size: 10px;
+  line-height: 1.428571429;
+  border-radius: 25px;
+}
+
+.profile{
+  position: absolute;
+  top:-20px;
+  left: 10%;
+  height: 200px;
+  width: 200px;
+  border:5px solid #fff;
+  border-radius: 50%;
+}
+.mat-icon{
+font-size: 20px;
+left:20px;
+}
+
+
